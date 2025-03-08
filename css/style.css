@@ -44,10 +44,8 @@ a:focus {
     font-weight: 600;
     letter-spacing: 1px;
     color: #ffffff;
-    background: #EF233C;
     border: 2px solid transparent;
     border-radius: 0;
-    box-shadow: inset 0 0 0 50px #EF233C;
     transition: ease-out 0.3s;
     -webkit-transition: ease-out 0.3s;
     -moz-transition: ease-out 0.3s;
@@ -1588,5 +1586,9 @@ a:focus {
         font-size: 16px;
         line-height: 16px;
         padding: 0 5px;
+    }
+
+    i.bi.bi-shield-check, i.bi.bi-trophy{
+        background-color: white;
     }
 }
